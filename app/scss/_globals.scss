@@ -14,11 +14,22 @@ body{
     padding: 0px;
     font-weight: 300;
     font-size: 1.125rem;
-    color: $lightGrayishBlue;
+    color: $grayishBlue;
+
+    &.noscroll{
+        overflow: hidden;
+    }
+
 }
 
 a, a:visited, a:hover{
     text-decoration: none;
+}
+
+// Spacing
+.container{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 
 .flex{
